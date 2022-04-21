@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+:root {
+    font-size: 1em;
+    font-family: 'Sora', sans-serif;
+}
+.recipe {
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+    h1 {
+        color: $text-new;
+        font-size: 30px;
+        padding: 30px;
+    }
+    h3, p, h4, li {
+        color: $text-gray;
+    }
+   h4 {
+       padding: 30px;
+   }
+    img {
+        width: 60%;
+        margin-right: 50px;
+        border-radius: 5%;
+        padding-top: 50px;
+    }
+    p {
+        @include paragraph;
+        // font-size: 20px;
+    }
+    li {
+        list-style:circle ;
+        text-align: left;
+        margin-left: 20%;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+   h3 {
+        padding-top: 30px;
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    .egusisec {
+        background-color: $red-light;
+        width: 100%;
+        margin-left: 0%;
+        p {
+            padding: 5px 10%;
+        }
+     
+    }
+    .jollofsec, .meatpiesec {
+        width: 80%;
+        margin-left: 10%;
+    }
+    button {
+        margin-bottom: 50px;
+        margin-top:30px;
+        padding: 10px 20px;
+     font-size: 16px;
+     border-radius: 10% 10%;
+     border: none;
+     box-shadow: 5px 5px 2px $text-gray;
+     background-color: $red-light;
+    }
+
+}

@@ -1,0 +1,76 @@
+@mixin center ($type) {
+
+    @if $type == flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    @else if  $type == grid {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    @else if $type == inset {
+        inset: 0;
+        position: absolute;
+        margin: auto;
+        
+    }
+
+
+}
+@mixin image {
+    width: 40%;
+    height: auto;
+    position: relative;
+    border-radius: 5%;
+ }
+ @mixin maindiv ($type) {
+    height:50vh;
+    padding: 3% 7%;
+
+    @if $type == green {
+        background-color: white;
+        color:$text-gray;
+    } 
+    @else if $type == beige {
+        background-color: white;
+        color: $text-gray;
+    }
+ }
+ @mixin foot {
+     display:flex;
+     padding: 10px 0px;
+     overflow: hidden;
+     width: 100%;
+    li {
+        list-style: none;
+  
+    }
+    // p {text-align: center;}
+ }
+ @mixin button($color) {
+     padding: 10px 20px;
+     font-size: 16px;
+     border-radius: 10%;
+    border: none;
+     @if $color == dark {
+        background-color: $red-light;
+        color: $text-new;
+
+     }
+     @else if $color == light {
+        background-color: white;
+        color: $text-new;
+     }
+ }
+
+ @mixin paragraph {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 15px;
+    text-align: justify;
+    padding: 10px;
+
+ }

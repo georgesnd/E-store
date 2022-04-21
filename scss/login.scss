@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 200px;
+}
+.loginform {
+     width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+    font-size: 20px;
+
+    input {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 10px 5px 10px 2px darkgray;
+    }
+    input::placeholder {
+        padding: 10px;
+        color: darkgray;
+    }
+    .log {
+        height: 40.4vh;
+        margin-bottom: 16vh;
+        box-shadow: inset 10px 5px 10px 2px $bg-2, inset -10px -5px 10px 2px $bg-2;
+        border: none;
+        border-radius: 5%;
+        color: $text-gray;
+        padding-right: 25%;
+    }
+    #user1 {
+        margin-top: 10%;
+    }
+    label, input {
+        margin-top: 5%;
+       
+    }
+    #logbutton {
+        margin-bottom: 3%;
+        width: 100px;
+        margin-left: 30%;
+        background-color: $bg-2;
+        font-weight: bold;
+        color: $text-gray;
+    }
+   #signup {
+  
+    text-align: center;
+    display: inline;
+    
+}
+    #signbutton {
+        background-color: gray;
+        width: 100px;
+        padding: 10px;
+        border-radius: 8%;
+        margin-bottom: 5%;
+        color: $bg-2;
+        font-weight: bold;
+    }
+legend {
+    font-size: 35px;
+    text-shadow: 2px 2px 2px ;
+    text-align: center;
+    padding-left:150px;
+    
+}
+}
+
+.sectcontacts {
+    padding-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: $text-gray;
+    margin-bottom: 5%;
+    display: flex;
+    h1 {
+        text-align: center;
+        padding: 50px 0px;
+        font-size: xx-large;
+        color: $text-new;
+    }
+    h2 {
+        padding-top: 3%;
+       
+       
+    }
+    h3 {
+        padding-top: 1%;
+        a {
+            color: $text-gray;
+            
+        }
+    }
+   
+    .tablecontact {
+        padding: 1% 0%;
+        text-align: left;
+        td {
+            padding: 5px 0px;
+        }
+        
+    }
+    .contact-left {
+        width: 45%;
+        background-color: $red-light;
+        border-radius: 5%;
+        color: $text-gray;
+       
+        padding-bottom: 2%;
+             iframe {
+            padding-top:1%;
+            padding-left: 0px;
+        }
+        h1, h2, p, h3, table {
+            padding-left: 4%;
+        }
+        }
+       
+    }
+    .contactform {
+        float:right;
+        width: 45%;
+        background-color: $text-gray;
+        color: $text-light;
+        border-radius: 5%;
+        padding:3%;
+        margin-left: 10%;
+        
+        ::placeholder {
+            color:white;
+            font-family:  'Sora', sans-serif;
+            font-style: italic;
+        }
+        input, textarea {
+            padding: 10px;
+            width: 100%;
+            margin: 2% 0%;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 3px solid $bg-2;
+            color: $text-light;
+            
+          
+        }
+        legend {
+            font-size: 30px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        label {
+            font-size: 20px;
+        }
+        .send-message-cta {
+            width: 50%;
+            margin: 5% 25%;
+            background-color: $bg-2;
+            border-radius: 5%;
+            border:none;
+            color: $text-gray;
+            font-size: 20px;
+        }
+    }
+  
+    
+
+
+
+
+

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.prodmain {
+    padding-top: 150px;
+
+    h3, h4 {
+        color: $text-dark;
+    }
+    h2 {
+        color: $text-dark;
+        padding: 3% 10%;
+    }
+    h4 {
+        font-weight: normal;
+        padding: 10px 0px;
+    }
+    button {
+        padding: 5px;
+        box-shadow: 5px 5px 2px $bg-2;
+        border:none;
+        color: $text-dark;
+    }
+    .fruit {
+         img {
+        width: 80%;
+        margin-left: 10%;
+  
+        }
+        display: grid;
+       
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap:10px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 72vh;
+        overflow-y: scroll;
+        margin-bottom: 5%;
+      
+       
+        div {
+       
+            height: 40vh;
+        }
+        #fruit-img {
+            border: none;
+            height: 25vh;
+        }
+    }
+   .drying {
+       display: flex;
+       width: 60%;
+       overflow-x: scroll;
+       margin: 1% 20%;
+       background-color: $bg-2;
+       border:10px solid $bg-2;
+       border-radius: 10px;
+       padding: 20px;
+       height: 42vh;
+       h3 {
+           padding: 5px 0px;
+       }
+       
+     
+       div {
+           width: 50%;
+           margin-right: 5%;
+           
+       }
+       #dry-img {
+        height: 25vh;
+        img {
+            height: 90%;
+            border-radius: 10% ;
+        }
+     }
+   }
+   .spices {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap:10px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 80vh;
+        img {
+            width: 80%;
+        }
+        #spices-img {
+            height: 50%;
+            img {
+                height: 100%;
+            }
+        }
+   }
+   .Meals {
+       margin-top:2%;
+       height: 50vh;
+       width: 100%;
+       background-image: url(../images/products/25.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+ #meal {
+         background-color: rgba(240, 224, 224, 0.5);
+         font-size: 30px;
+         text-align: left;
+         ;
+         #btmeal {
+             width: 200px;
+             height: 60px;
+             border-radius: 10%;
+             font-size: 30px;
+             box-shadow:  5px 5px 2px $text-dark, -5px -5px 2px $text-dark;
+             margin-left: 50px;
+             background-color: $red-light;
+             color: $text-new;
+          
+         }
+   }
+   .beautysec {
+    height: 50vh;
+    width: 100%;
+    background-image: url(../images/products/beauty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   #beauty {
+    background-color: rgba(240, 224, 224, 0.5);
+    font-size: 30px;
+    text-align: left;
+    h2{
+        color:$bg-2;
+    }
+    
+    #btbeauty {
+        width: 200px;
+        height: 60px;
+        border-radius: 10%;
+        font-size: 30px;
+        box-shadow:  5px 5px 2px gray, -5px -5px 2px gray;
+        margin-left: 50px;
+        background-color: $bg-2;
+        color: gray
+     
+    }
+}
+}

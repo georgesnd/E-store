@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 1em;
+    font-family: 'Sora', sans-serif;
+}
+
+.belly {
+    padding-top: 150px;
+    @include paragraph;
+    .aboutfirst  {
+        
+        height:50vh;
+        padding: 150px 7% 3%;
+        color: $text-gray;
+        margin-bottom: 5%;
+        img {
+            float: right;
+             @include image;
+             width: 45%;
+             margin-left: 5%;
+             border-radius: 5%;
+        }
+    }
+    .aboutsec {
+        @include maindiv(beige);
+        
+        h1 {
+            text-align: right;
+            padding-right: 26.2%;
+            padding-top: 3%;
+        }
+        h2 {
+            font-size: 26px;
+            
+        }
+        img {
+            float: left;
+             @include image;
+             width: 50%;
+             margin-right: 5%;
+             border-radius: 5%;
+        }
+    }
+    .foundersec {
+      
+        display: flex;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        
+    .ceo {
+        padding: 2%;
+        width: 100%;
+        h2, h3 {
+            text-align: center;
+            padding: 5px 0px;
+        }
+        img {
+            margin-left: 25%;
+            width: 50%;
+        }
+        h2 {
+            color: $text-gray;
+        }
+    }
+}
+    .ceopa {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        img {
+            margin-left: auto;
+            width: 50%;
+        }
+        h2, h3 {
+            text-align: center;
+            padding: 5px 0px;
+        }
+        h2 {
+            color: $text-gray;
+        }
+        
+    }
+
+    .partners {
+        @include maindiv(beige);
+        height: 60vh;
+        h1 {
+            padding-top: 10vh;
+        }
+        
+        img {
+            float: right;
+             @include image;
+             width: 50%;
+             margin-bottom: 2%;
+             margin-left: 5%;
+        }
+    }
+    
+}
